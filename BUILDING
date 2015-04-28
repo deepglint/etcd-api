@@ -1,0 +1,7 @@
+# 
+pre_install
+	bcurl4-openssl-dev
+	git clone git://github.com/lloyd/yajl
+		cmake
+		ruby
+		./config && sudo make install
